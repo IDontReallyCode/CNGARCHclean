@@ -11,6 +11,7 @@ import CNGARCH as cg
 
 def main():
 
+
     # Get a time series of prices
     TS = pd.read_csv(f"./hd_QQQ.csv")
     # Calculate daily log-returns

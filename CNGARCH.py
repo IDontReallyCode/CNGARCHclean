@@ -3,7 +3,7 @@
 
     All coded by some guy
 
-    based on 
+    based on  
     
     Christoffersen, Peter, Christian Dorion, Kris Jacobs, and Yintian Wang. "Volatility components, affine restrictions, and nonnormal innovations."
      Journal of Business & Economic Statistics 28, no. 4 (2010): 483-502.
