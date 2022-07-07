@@ -266,7 +266,7 @@ def _numbafilterngarch22(_R, vpath, qpath, W, Z, _la, _p1, _a1, _g1, _p2, _a2, _
 
 
 class sgarch11(gmodel):
-    # https://www.proquest.com/openview/c3f3b3ee3fcca1e754816685c8bb56cc/1.pdf/advanced
+    # 
     def __init__(self, x='[lambda, sigma, persistense, alpha]', R=np.zeros((1, )), targetK=False) -> None:
         super().__init__(x, R=R)
         self._targetK = targetK
@@ -375,7 +375,7 @@ class sgarch11(gmodel):
 
 
 class ngarch11(gmodel):
-    # https://www.proquest.com/openview/c3f3b3ee3fcca1e754816685c8bb56cc/1.pdf/advanced
+    # 
     def __init__(self, x='[lambda, sigma, persistense, alpha, gamma]', R=np.zeros((1, )), targetK=False) -> None:
         super().__init__(x, R=R)
         self._targetK = targetK
